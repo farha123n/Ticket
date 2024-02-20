@@ -26,7 +26,7 @@
     </style>
 </head>
 <body class="px-20">
-    <head class=" py-10 my-10">
+    <header class=" py-10 my-10" id="header">
         <div class="navbar bg-base-100">
             <div class="navbar-start">
               <div class="dropdown">
@@ -64,15 +64,15 @@
             </a>
             </div>
           </div>
-    </head>
-     <main>
+    </header>
+     <main id="main">
        <section class="mb-28">
           <div class="background-image-first px-40 py-24 rounded-xl">
             <div class="text-center">
                 <p class="text-white text-5xl">End-to end travel with</p>
                 <p class="color text-5xl my-4">p paribahan</p>
                 <p class="text-white my-4">this is a bus ticket booking system</p>
-                <button class="btn b text-white text-xl my-4">buy ticket</button>
+              <a href="#paribahan"> <button class="btn b text-white text-xl my-4">buy ticket</button></a> 
             </div>
           </div>
        </section>
@@ -109,7 +109,7 @@
        <button class="bg-white border border-dotted  text-xl p-6 " style="border-color: #1DD100; color: #1DD100;">see all offer</button>
         </div>
        </section>
-       <section class="pb-6 border-t-2 border-solid rounded-3xl my-32" style="border-color: #1DD100;">
+       <section  id="paribahan" class="pb-6 border-t-2 border-solid rounded-3xl my-32" style="border-color: #1DD100;">
             <div class="text-center my-10">
              <p class="font-bold text-4xl py-6">p.h paribahan</p>
              <p>this is a ticket booking app</p>
@@ -216,7 +216,7 @@
             </div>
             <div class="flex my-10">
             <input type="text" name="" id="coupon" placeholder="coupon">
-            <button class="b btn text-white p-2 mx-2"> Apply now</button>
+            <button onclick="discount1()" class="b btn text-white p-2 mx-2"> Apply now</button>
             </div>
             <div class="flex my-10 justify-between ">
               <p class="font-bold">Grand total</p>
@@ -239,7 +239,7 @@
               </div>
               <input type="text" placeholder="Enter Email" class="input input-bordered w-full max-w-xs" />
             </div>
-            <button  class="btn w-full  my-10 b text-white text-center font-bold">Next</button>
+            <button onclick="hide()" class="btn w-full  my-10 b text-white text-center font-bold">Next</button>
           </div>
           <div class="flex justify-around">
             <p class="mx-4">terms and condition</p>
