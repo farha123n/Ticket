@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.7.2/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .background-image-first{
+            background-image: url(images/banner.png);
+            background-size: cover;
+            background-position: center;
+        }
+        .color{
+            color:#1DD100
+        }
+        .b{
+            background-color: #1DD100;
+        }
+        .background-pink{
+            background-color:#F78C9C;
+        }
+    </style>
+</head>
+<body class="px-20">
+    <head class=" py-10 my-10">
+        <div class="navbar bg-base-100">
+            <div class="navbar-start">
+              <div class="dropdown">
+                <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+                </div>
+                <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                  <li><a>Item 1</a></li>
+                  <li>
+                    <a>Parent</a>
+                    <ul class="p-2">
+                      <li><a>Submenu 1</a></li>
+                      <li><a>Submenu 2</a></li>
+                    </ul>
+                  </li>
+                  <li><a>Item 3</a></li>
+                </ul>
+              </div>
+              <a class=" text-xl font-bold">P-Ticket</a>
+            </div>
+            <div class="navbar-center hidden lg:flex">
+              <ul class="menu menu-horizontal px-1">
+                <li><a>home</a></li>
+                <li>
+                <a href="">about</a>
+                </li>
+                <li><a>destination</a></li>
+                <li><a href="">search</a></li>
+              </ul>
+            </div>
+            <div class="navbar-end">
+              <a class="btn">
+                <div class="flex text-2xl " style="color: #1DD100; border:1px dotted #1DD100  "> bus<img src="images/bus-icon.png"></div>
+                
+            </a>
+            </div>
+          </div>
+    </head>
+     <main>
+       <section class="mb-28">
+          <div class="background-image-first px-40 py-24 rounded-xl">
+            <div class="text-center">
+                <p class="text-white text-5xl">End-to end travel with</p>
+                <p class="color text-5xl my-4">p paribahan</p>
+                <p class="text-white my-4">this is a bus ticket booking system</p>
+                <button class="btn b text-white text-xl my-4">buy ticket</button>
+            </div>
+          </div>
+       </section>
+       <section class="px-20 py-10">
+        <div class="text-center">
+            <p class="font-bold text-xl py-8">Best offer for you</p>
+            <div class="flex pb-28 ">
+    
+                <div class="bg-yellow-500 rounded-b px-6 py-10 mr-0 rounded-2xl">
+                    <p class="font-bold text-xl py-1">15% off</p>
+                    <p class=""> and your next puschase                     
+                    </p>
+                    <p>january 2024</p>
+                </div>
+                <div class=" bg-yellow-500">
+                    <img src="images/cupon-devider.png" alt="">
+                </div>
+                <div class="pt-10 px-10 ml-0 bg-yellow-500 rounded-r">
+                    <p class="font-bold text-xl ">news<sub>15</sub></p>
+                    <p>coupon code</p>
+                </div>
+            <div class="ml-20 background-pink px-16 py-6 mr-0 rounded-l">
+              <p class="font-bold text-xl py-6">20% off</p>
+              <p>on you next purchase</p>
+            </div>
+            <div class="background-pink mr-0">
+                <img src="images/cupon-devider.png" alt="">
+            </div>
+            <div class="background-pink px-16 py-6">
+               <p class="font-bold text-xl py-4"> couple 20</p>
+               <p class="">coupon code</p>
+            </div>
+            </div>
+       <button class="bg-white border border-dotted  text-xl p-6 " style="border-color: #1DD100; color: #1DD100;">see all offer</button>
+        </div>
+       </section>
+       <section class="pb-6 border-t-2 border-solid rounded-3xl my-32" style="border-color: #1DD100;">
+            <div class="text-center my-10">
+             <p class="font-bold text-4xl py-6">p.h paribahan</p>
+             <p>this is a ticket booking app</p>
+            </div>
+            <div class="flex">
+             <div>
+              <div class="flex "style="vertical-align:top">
+                <div class="mr-4"> <img src="images/bus-logo.png" alt=""></div>
+                <div>
+                   <p class="text-3xl font-bold py-4">green line paribahan</p>
+                   <p>coach wm-bc| ac business</p>
+                </div>
+                <div class="justify-end flex bg-green-300  ml-60  py-6 px-2" style="color:#1DD100">
+                   <img class="w-6 h-6" src="images/seat-green.png" alt="">
+                   <p class="items-center">40 seat left</p>
+                </div>
+              </div>
+              <div class="flex justify-between my-10">
+                 <p class="text-xl">rout</p>
+                 <p class="text-xl font-bold">dhaka-sylhet</p>
+              </div>
+              <div class="flex justify-between">
+                  <p class="text-xl "> departure time</p>
+                  <p class="text-xl font-bold">9.00 pm</p>
+              </div>
+              <div class="flex my-6">
+                <div class="bg-slate-200 px-10 py-4 text-center mx-4">boarding point-laxmipoor</div>
+                <div class="bg-slate-200 px-10 py-4 text-center mx-4">dropping point bogura</div>
+                <div class="bg-slate-200 px-10 py-4 text-center"> est time-11hour</div>
+              </div>
+              
+             </div>
+               <div class="flex justify-center items-center mx-20">
+                  <div>
+                    <img class="my-4" src="images/fare.png" alt="">
+                    <p class="font-bold text-2xl">550 Taka</p>
+                    <p>per seat</p>
+                  </div>
+               </div>
+               </div>
+            </div>
+       </section>
+       <section class="flex justify-around">
+         <div class="">
+          <p class="text-xl my-10 font-bold">select your seat</p>
+          <div class="flex justify-between w-96 my-16">
+            <div class="flex">
+              <img src="images/seat-gray.png" alt="" >
+              <p>available</p>
+            </div>
+            <div class="flex" style="color: #1DD100;">
+              <img src="images/seat-green.png" alt="">
+              <p>selected</p>
+            </div>
+          </div>
+          <div>
+           <div class="flex">
+            <p class="mr-10  my-4">A</p>
+            <Button onclick="information()" class="a btn bg-slate-200 m-4">A1</button><button onclick="information()" class="a btn bg-slate-200 m-4">A2</Button><button  onclick="information()" class="a btn bg-slate-200 m-4">A3</button><button onclick="information()"  class="a btn bg-slate-200 m-4">A4</button></div>
+           <div  class="flex">
+            <p  class="mr-10  my-4">B</p>
+            <button  onclick="information()"  class="a btn bg-slate-200 m-4">B1</button><button onclick="information()" class="a btn bg-slate-200 m-4">B2</button><button onclick="information()" class="a btn bg-slate-200 m-4">B3</button><button onclick="information()" class="a btn bg-slate-200 m-4">B4</button></div>
+           <div class="flex"2>
+            <p class="mr-10  my-4">C</p>
+            <button  onclick="information()" class="a btn bg-slate-200 m-4">C1</button><button onclick="information()" class="a btn bg-slate-200 m-4">C2</button><button onclick="information()" class="a btn bg-slate-200 m-4">C3</button><button onclick="information()" class="a btn bg-slate-200 m-4">C4</button></div>
+           <div class="flex">
+            <p class="mr-10">D</p>
+            <button onclick="information()"  class="a btn bg-slate-200 m-4">D1</button><button onclick="information()" class="a btn bg-slate-200 m-4">D2</button><button onclick="information()" class="a btn bg-slate-200 m-4">D3</button><button onclick="information()" class="a btn bg-slate-200 m-4">D4</button></div>
+           <div class="flex">
+            <p class="mr-10">E</p>
+            <button  onclick="information()" class="a btn bg-slate-200 m-4">E1</button><button onclick="information()" class="a btn bg-slate-200 m-4">E2</button><button onclick="information()" class="a btn bg-slate-200 m-4">E3</button><button onclick="information()" class="a btn bg-slate-200 m-4">E4</button></div>
+           <div class="flex">
+            <p class="mr-10  my-4">F</p>
+            <button class="a btn bg-slate-200 m-4">F1</button><button onclick="information()" class="a btn bg-slate-200 m-4">F2</button><button  onclick="information()"class="a btn bg-slate-200 m-4">F3</button><button class="a btn bg-slate-200 m-4">F4</button></div>
+           <div class="flex"3>
+            <p class="mr-10  my-4">G</p>
+            <button onclick="information()"  class="a btn bg-slate-200 m-4">G1</button><button onclick="information()" class="a btn bg-slate-200 m-4">G2</button><button onclick="information()" class="a btn bg-slate-200 m-4">G3</button><button onclick="information()" class="a btn bg-slate-200 m-4">G4</button></div>
+           <div class="flex">
+            <p class="mr-10  my-4">H</p>
+            <button onclick="information()"  class="a btn bg-slate-200 m-4">H1</button><button  onclick="information()" class= "a btn bg-slate-200 m-4">H2</button><button onclick="information()" class="a btn bg-slate-200 m-4">H3</button><button onclick="information()" class="a btn bg-slate-200 m-4">H4</button></div>
+           <div class="flex">
+            <p class="mr-10  my-4">I</p>
+            <button  onclick="information()" class="a btn bg-slate-200 m-4">I1</button><button onclick="information()" class="a btn bg-slate-200 m-4">I2</button><button onclick="information()" class="a btn bg-slate-200 m-4">I3</button><button onclick="information()" class="a btn bg-slate-200 m-4">I4</button></div>
+           <div class="flex">
+            <p class="mr-10  my-4">J</p>
+            <button  onclick="information()" class="a btn bg-slate-200 m-4">J1</button><button  onclick="information()"class="a btn bg-slate-200 m-4">J2</button><button onclick="information()" class="a btn bg-slate-200 m-4">J3</button><button onclick="information()" class="a btn bg-slate-200 m-4">J4</button></div>
+          </div>
+         </div>
+       
+         <div>
+          <p class="text-xl mt-10 mb-20  font-bold">select your sear</p>
+          <div>
+           <div id="information">
+            <div id="check" class="flex justify-between w-60 my-10">
+              <p class="font-bold">seat</p>
+              <p class="font-bold">class</p>
+              <p class="font-bold">price</p>
+            </div>
+           </div>
+            <hr >
+            <div class="flex justify-between my-10">
+             <p class="font-bold">Total Price</p>
+             <p class="font-bold">bdt<span id="total-cost"></span></p>
+            </div>
+            <div class="flex my-10">
+            <input type="text" name="" id="coupon" placeholder="coupon">
+            <button class="b btn text-white p-2 mx-2"> Apply now</button>
+            </div>
+            <div class="flex my-10 justify-between ">
+              <p class="font-bold">Grand total</p>
+              <p class="font-bold">BDT <span id="final-cost"></span></p>
+            </div>
+            <div>
+              <div class="label">
+                <span class="label-text font-bold">passenger name</span>
+                
+              </div>
+              <input type="text" placeholder="Enter your name" class="input input-bordered w-full max-w-xs" />
+              <div class="label">
+                <span class="label-text font-bold">Phone name</span>
+                
+              </div>
+              <input type="number" placeholder="Enter Number" class="input input-bordered w-full max-w-xs" />
+              <div class="label">
+                <span class="label-text font-bold">Email</span>
+                
+              </div>
+              <input type="text" placeholder="Enter Email" class="input input-bordered w-full max-w-xs" />
+            </div>
+            <button  class="btn w-full  my-10 b text-white text-center font-bold">Next</button>
+          </div>
+          <div class="flex justify-around">
+            <p class="mx-4">terms and condition</p>
+            <p class="mx-4">cancelation policy</p>
+          </div>
+         </div>
+      
+       </section>
+     </main>
+     <section class="p-60 flex justify-center items-center">
+         <div class="text-center">
+            <div class="items-center justify-center flex">
+              <img class="my-6" src="images/success.png" alt="" >
+            </div>
+            <p class="text-green-950 text-xl my-6">success</p>
+            <p>Thanks for booking our bus seats</p>
+            <p>We are working hard for best service and deals for you</p>
+            <p>shortly you will find your confirmantion email</p>
+            <button class="bg-green-500 text-white font-bold my-6 p-4 rounded-xl ">continue</button>
+         </div>
+     </section>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              clifford: '#da373d',
+            }
+          }
+        }
+      }
+    </script>
+    <script src="ticket.js"></script>
+</body>
+</html>
