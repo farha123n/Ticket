@@ -70,4 +70,6 @@ function hide(){
     main.classList.add("hidden");
     const header=document.getElementById("header");
     header.classList.add("hidden");
+    const last=document.getElementById("last");
+    last.classList.remove("hidden");
 }
