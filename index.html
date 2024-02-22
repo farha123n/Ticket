@@ -124,7 +124,7 @@
                 </div>
                 <div class="justify-end flex bg-green-300  ml-60  py-6 px-2" style="color:#1DD100">
                    <img class="w-6 h-6" src="images/seat-green.png" alt="">
-                   <p class="items-center">40 seat left</p>
+                   <p class="items-center"><Span id="left_seat">40</Span> seat left</p>
                 </div>
               </div>
               <div class="flex justify-between my-10">
@@ -204,7 +204,7 @@
           <div>
            <div id="information">
             <div id="check" class="flex justify-between w-60 my-10">
-              <p class="font-bold">seat</p>
+              <p class="font-bold">seat <span class="b text-white" id="added-ticket">0</span></p>
               <p class="font-bold">class</p>
               <p class="font-bold">price</p>
             </div>
@@ -227,19 +227,19 @@
                 <span class="label-text font-bold">passenger name</span>
                 
               </div>
-              <input type="text" placeholder="Enter your name" class="input input-bordered w-full max-w-xs" />
+              <input type="text" id="name" placeholder="Enter your name" class="input input-bordered w-full max-w-xs" />
               <div class="label">
                 <span class="label-text font-bold">Phone name</span>
                 
               </div>
-              <input type="number" placeholder="Enter Number" class="input input-bordered w-full max-w-xs" />
+              <input type="number" id="email" placeholder="Enter Number" class="input input-bordered w-full max-w-xs" />
               <div class="label">
                 <span class="label-text font-bold">Email</span>
                 
               </div>
               <input type="text" placeholder="Enter Email" class="input input-bordered w-full max-w-xs" />
             </div>
-            <button onclick="hide()" class="btn w-full  my-10 b text-white text-center font-bold">Next</button>
+            <button onclick="hide()" id="nextButton" disabled class="btn w-full  my-10 b text-white text-center font-bold">Next</button>
           </div>
           <div class="flex justify-around">
             <p class="mx-4">terms and condition</p>

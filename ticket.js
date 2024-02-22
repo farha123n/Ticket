@@ -30,7 +30,8 @@ function totalPrice(ticket){
 
 function information(button){
     
-    
+    let left_seat=document.getElementById("left_seat");
+    let added_ticket=document.getElementById("added-ticket")
      
     
     if((count<4)&&(!a.includes(button.textContent))){
@@ -41,6 +42,12 @@ function information(button){
     console.log(seatname);
     create_element(seatname)
     count++
+    countText=count.toString();
+    left_number=40-count;
+    leftText=left_number.toString();
+    left_seat.innerText=leftText
+    added_ticket.innerText=countText;
+
     }
     c=totalPrice(count);
    return c;
@@ -49,6 +56,7 @@ function information(button){
 function discount1(){
     let couponInput=document.getElementById("coupon");
     const c=couponInput.value;
+    console.log(c);
     let finalCost;
     const i=information(this);
     if(c==="news15")
@@ -72,4 +80,25 @@ function hide(){
     header.classList.add("hidden");
     const last=document.getElementById("last");
     last.classList.remove("hidden");
+
 }
+let  Pname= document.getElementById("name");
+let button=document.getElementById("nextButton"); 
+let n=1;
+  Pname.addEventListener("keyup",function(){
+    let pText=Pname.value;
+   
+
+    if (pText !== ' '){
+        button.removeAttribute("disabled")
+     n=0;
+    }
+  })
+
+
+   
+ 
+ 
+
+
+
